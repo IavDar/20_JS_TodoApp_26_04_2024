@@ -1,0 +1,61 @@
+body {
+    background-color: #f9f9f9;
+}
+
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1 px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+} */
+
+input {
+    width: calc(100% - 20px);
+    /* padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px; */
+}
+
+/* button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+} */
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+
+/* .BtnContainer {
+    display: flex;
+    justify-content: left;
+} */
+
+/* ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border:  1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+} */
+
+ /* Настройки  для элемента с классом container при ширине экрана до 600px 
+ т.е. при ширине экрана 600px и меньше контейнер становится максимум шириной 300px */
+@media (max-width: 600px) {
+    .container {
+        max-width: 300px;
+    }
+}
